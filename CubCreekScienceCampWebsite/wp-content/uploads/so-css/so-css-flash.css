@@ -8,14 +8,14 @@
 
 .header-top .right-content ul {
   position: relative;
-  left: 390px;
+  left: 380px;
   float: none;
 }
 
 .header-top .contact-phone {
   list-style: none;
   position: relative;
-  left: 780px;
+  left: 765px;
   line-height: 40px;
   margin: 0px;
 }
@@ -34,6 +34,28 @@
 
 .social-menu li a[href*="instagram.com"]::before {
   content: "\f16d";
+}
+
+.logo .logo-image {
+	padding: 10px 0;
+}
+
+/*-----------------------------------------------------Slider Image---------------------------------------*/
+
+.tg-slider-widget.slider-dark .slider-image .overlay {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.tg-slider-widget.slider-dark .caption-title, .tg-slider-widget.slider-dark .caption-desc {
+    color: #fff;
+    font-family: 'Oswald';
+    text-align: left;
+    width: 50%;
+    padding-left: 25px;
+}
+
+.tg-slider-widget.slider-dark .caption-desc {
+	font-family: 'Merriweather'
 }
 
 /*------------------Desktop Header colors and site main navigation and breadcrumbs-----------------------------*/
@@ -93,6 +115,11 @@
 }
 
 /*--------------------------Mobile Navigation------------------------------------------------*/
+
+@media (max-width: 480px) {
+  .center-logo-below-menu .logo, .logo {
+  	padding: 0 0;}
+}
 
 @media (max-width: 600px){
 .header-top .tg-column-wrapper {
