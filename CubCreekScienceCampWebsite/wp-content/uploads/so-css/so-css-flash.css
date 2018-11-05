@@ -55,7 +55,9 @@
 }
 
 .tg-slider-widget.slider-dark .caption-desc {
-	font-family: 'Merriweather'
+	font-family: 'Merriweather';
+  font-size: 18px;
+  line-height: 25px;
 }
 
 /*------------------Desktop Header colors and site main navigation and breadcrumbs-----------------------------*/
