@@ -60,6 +60,14 @@
   line-height: 25px;
 }
 
+.tg-slider-widget.slider-dark .btn-wrapper a {
+	border-color: #fff0;
+  background-color: #FF9102;
+  font-family:	'Oswald';
+}
+
+
+
 /*------------------Desktop Header colors and site main navigation and breadcrumbs-----------------------------*/
 
 .header-bottom {
