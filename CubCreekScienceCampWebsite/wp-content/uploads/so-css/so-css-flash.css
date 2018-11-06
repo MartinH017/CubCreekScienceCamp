@@ -124,7 +124,7 @@
   font-family: 'Oswald', sans-serif;
 }
 
-/*--------------------------Mobile Navigation------------------------------------------------*/
+/*-----------------------------------------Mobile Navigation------------------------------------------------*/
 
 @media (max-width: 480px) {
   .center-logo-below-menu .logo, .logo {
@@ -189,4 +189,37 @@
 
 .fa-angle-down:before {
   color: #ffee00;
+}
+
+/*-----------------------------------------------Testimonials / Footer-----------------------------------------*/
+.testimonial-container .testimonial-client-detail{
+	font-family: 'Oswald';
+}
+
+.tg-container {
+	font-family: 'Oswald';
+}
+
+#top-footer{
+    background-color: #FFFFFF;
+    box-shadow: 0px -4px 15px #0000001f;
+    padding: 30px 0 0px;
+}
+
+#top-footer .widget ul li {
+    line-height: 10px;
+}
+
+#top-footer .widget ul li a {
+	color: #000000;
+}
+
+#top-footer .widget-title {
+  color: #000000;
+  margin-bottom: 15px;
+  border-left: none;
+}
+
+#bottom-footer {
+	display: none;
 }
