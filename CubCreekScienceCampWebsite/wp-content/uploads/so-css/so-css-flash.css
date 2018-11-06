@@ -64,9 +64,16 @@
 	border-color: #fff0;
   background-color: #FF9102;
   font-family:	'Oswald';
+  margin-left: 25px;
 }
 
+.tg-slider-widget .swiper-button-prev:before {
+	background: #FF9102;
+}
 
+.tg-slider-widget .swiper-button-next:before {
+	background: #FF9102;
+}
 
 /*------------------Desktop Header colors and site main navigation and breadcrumbs-----------------------------*/
 
@@ -129,6 +136,14 @@
 @media (max-width: 480px) {
   .center-logo-below-menu .logo, .logo {
   	padding: 0 0;}
+  
+  .tg-slider-widget.slider-content-center .caption-title, .tg-slider-widget.slider-content-left .caption-title {
+  	font-size: 25px;
+  }
+  
+	.tg-slider-widget .btn-wrapper a {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 600px){
@@ -198,12 +213,22 @@
 
 .tg-container {
 	font-family: 'Oswald';
+  text-align: left;
 }
 
 #top-footer{
     background-color: #FFFFFF;
     box-shadow: 0px -4px 15px #0000001f;
     padding: 30px 0 0px;
+}
+
+#top-footer .textwidget {
+    font-size: 14px;
+    color: #fff;
+    line-height: 20px;
+    position: relative;
+    padding: 0 0 0px 20px;
+    margin-bottom: -20px;
 }
 
 #top-footer .widget ul li {
