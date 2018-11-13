@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:600);
+.so-widget-sow-button-flat-ea4a63d382ed .ow-button-base {
+  zoom: 1;
+}
+.so-widget-sow-button-flat-ea4a63d382ed .ow-button-base:before {
+  content: '';
+  display: block;
+}
+.so-widget-sow-button-flat-ea4a63d382ed .ow-button-base:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.so-widget-sow-button-flat-ea4a63d382ed .ow-button-base a {
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: Oswald;
+  font-weight: 600;
+  font-size: 1em;
+  padding: 0.5em 1em;
+  background: #ffee00;
+  color: #0c0c0c !important;
+  border: 1px solid #ffee00;
+  border-width: 1px 0;
+  -webkit-border-radius: 0em;
+  -moz-border-radius: 0em;
+  border-radius: 0em;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+}
+.so-widget-sow-button-flat-ea4a63d382ed .ow-button-base a:visited,
+.so-widget-sow-button-flat-ea4a63d382ed .ow-button-base a:active,
+.so-widget-sow-button-flat-ea4a63d382ed .ow-button-base a:hover {
+  color: #0c0c0c !important;
+}
+.so-widget-sow-button-flat-ea4a63d382ed .ow-button-base a.ow-button-hover:hover {
+  background: #ffef14;
+  border-bottom-color: #fae900;
+  color: #161616;
+}

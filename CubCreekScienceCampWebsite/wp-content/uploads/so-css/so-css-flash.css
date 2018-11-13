@@ -56,8 +56,8 @@
 
 .tg-slider-widget.slider-dark .caption-desc {
 	font-family: 'Merriweather';
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 24px;
+  line-height: 30px;
 }
 
 .tg-slider-widget.slider-dark .btn-wrapper a {
@@ -152,6 +152,11 @@
 	.tg-slider-widget .btn-wrapper a {
     font-size: 18px;
   }
+  .header-top ul.contact-info li {
+    text-align: center;
+    display: flex;
+    width: auto;
+  }
 }
 
 @media (max-width: 600px){
@@ -163,6 +168,13 @@
 #top-footer .tg-column-wrapper .footer-block {
     width: 100%;
     margin: 0 0 0px;
+  }
+  
+.header-top .contact-info, .header-top .social-menu {
+    float: none;
+    line-height: 30px;
+    display: flex;
+    width: 500px;
   }
 }
 
@@ -280,4 +292,9 @@
 
 #bottom-footer {
 	display: none;
+}
+
+/*--------------------------Pure Chat Icon--------------------------------------*/
+#PureChatWidget.purechat.purechat-image-only.purechat-widget-collapsed.purechat-bottom-right .purechat-collapsed-image, #PureChatWidget.purechat.purechat-image-only.purechat-widget-collapsed.purechat-top-right .purechat-collapsed-image {
+right: 15px !important;
 }
